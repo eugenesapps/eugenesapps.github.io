@@ -110,9 +110,11 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
  
   /* Banner */
-  #banner h1 {font-size: 3.571em; line-height: .6;}
+  /* #banner h1 {font-size: 3.571em; line-height: .6;} */
+  #banner h1 {font-size: 2.0em; line-height: .6;}
   #banner h1 a:link, #banner h1 a:visited {
-    color: #000305;
+    /* color: #000305; */
+    color: #C74350;
     display: block;
     font-weight: bold;
     margin: 0 0 .6em .2em;
@@ -121,7 +123,8 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
   }
   #banner h1 a:hover, #banner h1 a:active {
     background: none;
-    color: #C74350;
+    /* color: #C74350; */
+    color: #000305;
     text-shadow: none;
   }
  
